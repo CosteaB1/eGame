@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Errors\" />
     <Folder Include="Shared\" />
+    <Folder Include="ValueObjects\UserStats\" />
     <Folder Include="ValueObjects\UserItem\" />
   </ItemGroup>
 

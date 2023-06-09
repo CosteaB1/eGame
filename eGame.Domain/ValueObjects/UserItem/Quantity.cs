@@ -14,7 +14,7 @@ public record Quantity
 
     public static Result<Quantity> Create(int value)
     {
-        if (value < 0)
+        if (value == 0)
         {
             return Result<Quantity>.Failure(DomainErrors.UserItem.QuantityIsZero);
         }

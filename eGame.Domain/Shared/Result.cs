@@ -3,7 +3,7 @@
 public class Result<TValue>
 {
     public bool IsSuccess { get; set; }
-    public TValue? Data { get; set; }
+    public TValue Data { get; set; } // to check
     public Error? Error { get; set; }
 
     public static Result<TValue> Success(TValue data) // Result<Quantity>.Success(new Quantity(value))
